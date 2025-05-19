@@ -1,0 +1,114 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f1f1f1;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(45deg, #ff4747, #d20000);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    color: #fff;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4747;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 40px 20px;
+    margin: 40px 0;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 2.5em;
+    color: #ff4747;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+section a {
+    color: #ff4747;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #ff4747;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+section a:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+/* Container para as seções */
+.content-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Rodapé */
+footer {
+    background-color: #111;
+    color: #888;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Efeito de transição suave nos links */
+a {
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
